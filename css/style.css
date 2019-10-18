@@ -1,0 +1,32 @@
+.upload {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dropzone {
+    background-color: rgb(224, 255, 255);
+    width: 80%;
+    height: 200px;
+    border: 2px dashed #888;
+    color: #888;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.dropzone::placeholder {
+    color: #888;
+}
+
+.dropzone.dragover,
+.dropzone.dragover::placeholder {
+    border-color: #000;
+    color: #000;
+}
+
+.notXls,
+.tooBig {
+    background-color: rgb(173, 214, 229);
+}
